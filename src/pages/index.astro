@@ -1,9 +1,10 @@
 ---
 // Component Imports
-import Header from "../components/Header.svelte";
+import Intro from "../components/Intro.svelte";
 import Pricing from "../components/Pricing.svelte";
 import Info from "../components/Info.svelte";
 import Contact from "../components/Contact.svelte";
+import NavBar from "../components/NavBar.svelte";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -30,7 +31,8 @@ import Contact from "../components/Contact.svelte";
   <body>
     <main>
       <div class="flex flex-col">
-        <Header client:visible />
+        <NavBar client:visible />
+        <Intro client:visible />
         <Pricing client:visible />
         <Info client:visible />
         <Contact client:visible />

@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div class="header flex flex-row self-center pb-12">
+<div class="header flex flex-row self-center pb-12 pt-12">
   <div class="flex flex-col">
     <img src="./images/brand.png" alt="Signscape's brand logo" />
     <h2 class="w-full text-center text-4xl text-scape-blue-3 p-4">
